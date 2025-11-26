@@ -87,7 +87,7 @@ const NavBar = () => {
             </Link>
 
             {/* Account */}
-            <Link to="/account">
+            <Link to="/profile">
               <Button variant="ghost" size="icon">
                 <User className="h-5 w-5" />
               </Button>
@@ -147,8 +147,8 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/account" className="block text-foreground hover:text-primary transition-colors" onClick={toggleMenu}>
-                  My Account
+                <Link to="/profile" className="block text-foreground hover:text-primary transition-colors" onClick={toggleMenu}>
+                  My Profile
                 </Link>
               </li>
               <li>
